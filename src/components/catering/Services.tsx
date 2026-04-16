@@ -51,9 +51,7 @@ const Services = () => {
               <div className="p-8">
                 <h3 className="font-serif text-xl font-semibold text-charcoal mb-3">{s.title}</h3>
                 <p className="text-sm text-muted-foreground font-light leading-relaxed">{s.desc}</p>
-                <a href="#contact" className="inline-block mt-5 text-sm font-medium text-gold hover:text-gold-dark transition-colors uppercase tracking-wider">
-                  Learn More →
-                </a>
+             
               </div>
             </div>
           ))}

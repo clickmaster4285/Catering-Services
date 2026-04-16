@@ -23,14 +23,17 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-card/95 backdrop-blur-md shadow-lg py-3"
+          ? "bg-white backdrop-blur-md shadow-lg py-3"
           : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="font-serif text-2xl font-bold tracking-wide text-gold">
-          Élégance<span className="text-charcoal font-light"> Catering</span>
-        </a>
+      <a href="#" className={`font-serif text-2xl font-bold tracking-wide text-gold transition-colors duration-300`}>
+  Élégance
+  <span className={`font-light transition-colors duration-300 ${scrolled ? "text-charcoal" : "text-white"}`}>
+    {" "}Catering
+  </span>
+</a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
@@ -38,7 +41,9 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium uppercase tracking-widest text-charcoal-light hover:text-gold transition-colors duration-300"
+              className={`text-sm font-medium uppercase tracking-widest transition-colors duration-300 ${
+                scrolled ? "text-charcoal hover:text-gold" : "text-white hover:text-gold"
+              }`}
               style={{ letterSpacing: "0.12em" }}
             >
               {link.label}
@@ -55,21 +60,33 @@ const Navbar = () => {
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
-          <span className={`block w-6 h-0.5 bg-charcoal transition-all ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
-          <span className={`block w-6 h-0.5 bg-charcoal transition-all ${mobileOpen ? "opacity-0" : ""}`} />
-          <span className={`block w-6 h-0.5 bg-charcoal transition-all ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+          <span className={`block w-6 h-0.5 transition-all ${
+            scrolled ? "bg-charcoal" : "bg-white"
+          } ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
+          <span className={`block w-6 h-0.5 transition-all ${
+            scrolled ? "bg-charcoal" : "bg-white"
+          } ${mobileOpen ? "opacity-0" : ""}`} />
+          <span className={`block w-6 h-0.5 transition-all ${
+            scrolled ? "bg-charcoal" : "bg-white"
+          } ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
         </button>
       </div>
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-card/98 backdrop-blur-lg border-t border-border px-6 py-6 space-y-4">
+        <div className={`md:hidden backdrop-blur-lg border-t mt-5 px-6 py-6 space-y-4 ${
+          scrolled 
+            ? "bg-charcoal-light/98 border-charcoal" 
+            : "bg-card/98 border-charcoal-light"
+        }`}>
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className="block text-sm uppercase tracking-widest text-charcoal-light hover:text-gold transition-colors"
+              className={`block text-sm uppercase tracking-widest transition-colors ${
+                scrolled ? "text-white hover:text-gold" : "text-white hover:text-gold"
+              }`}
             >
               {link.label}
             </a>

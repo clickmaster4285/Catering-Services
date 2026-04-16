@@ -41,9 +41,9 @@ const Footer = () => {
           <div>
             <h4 className="text-xs uppercase tracking-widest text-gold mb-4" style={{ letterSpacing: "0.2em" }}>Contact</h4>
             <div className="space-y-3 text-sm text-ivory/50">
-              <p>hello@elegancecatering.com</p>
-              <p>+1 (555) 234-5678</p>
-              <p>123 Culinary Avenue<br />New York, NY 10001</p>
+              <p>marketing@clickmasters.pk</p>
+              <p>+92 333-1116842</p>
+              <p>Paris Shopping Mall, 4th floor, Main PWD Rd, PWD Housing Society Sector A, Islamabad, Punjab 45700, Pakistan</p>
             </div>
           </div>
         </div>
