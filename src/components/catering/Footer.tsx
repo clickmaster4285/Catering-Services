@@ -1,0 +1,61 @@
+const Footer = () => {
+  return (
+    <footer className="bg-charcoal py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-10">
+          <div className="md:col-span-2">
+            <h3 className="font-serif text-2xl font-bold text-gold mb-4">
+              Élégance<span className="text-ivory font-light"> Catering</span>
+            </h3>
+            <p className="text-ivory/60 font-light text-sm leading-relaxed max-w-sm">
+              Crafting unforgettable culinary experiences for life's most important moments. From intimate dinners to grand celebrations.
+            </p>
+            <div className="flex gap-4 mt-6">
+              {["Instagram", "Facebook", "Pinterest"].map((s) => (
+                <a
+                  key={s}
+                  href="#"
+                  className="text-xs uppercase tracking-wider text-ivory/40 hover:text-gold transition-colors duration-300"
+                >
+                  {s}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xs uppercase tracking-widest text-gold mb-4" style={{ letterSpacing: "0.2em" }}>Quick Links</h4>
+            <div className="space-y-3">
+              {["About", "Services", "Portfolio", "Testimonials", "Blog", "Contact"].map((l) => (
+                <a
+                  key={l}
+                  href={`#${l.toLowerCase()}`}
+                  className="block text-sm text-ivory/50 hover:text-gold transition-colors duration-300"
+                >
+                  {l}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xs uppercase tracking-widest text-gold mb-4" style={{ letterSpacing: "0.2em" }}>Contact</h4>
+            <div className="space-y-3 text-sm text-ivory/50">
+              <p>hello@elegancecatering.com</p>
+              <p>+1 (555) 234-5678</p>
+              <p>123 Culinary Avenue<br />New York, NY 10001</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-ivory/10 mt-12 pt-8 text-center">
+          <p className="text-xs text-ivory/30">
+            © {new Date().getFullYear()} Élégance Catering. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
