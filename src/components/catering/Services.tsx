@@ -6,18 +6,18 @@ import servicePrivate from "@/assets/service-private.jpg";
 const services = [
   {
     img: serviceWedding,
-    title: "Weddings",
-    desc: "From intimate garden ceremonies to grand ballroom receptions, we create menus as unique as your love story.",
+    title: "Restaurant Management",
+    desc: "Handle orders, billing, and kitchen operations seamlessly — built for fast-paced dining environments.",
   },
   {
     img: serviceCorporate,
-    title: "Corporate Events",
-    desc: "Impress clients and celebrate teams with sophisticated catering that reflects your brand's excellence.",
+    title: "Retail Operations",
+    desc: "Manage sales, inventory, and customers with a smooth checkout experience across your store.",
   },
   {
     img: servicePrivate,
-    title: "Private Dining",
-    desc: "Transform your home into a fine-dining destination with our bespoke private chef experiences.",
+    title: "Multi-Outlet Control",
+    desc: "Monitor and manage multiple locations from one system with real-time data and centralized control.",
   },
 ];
 

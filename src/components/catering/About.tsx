@@ -20,38 +20,69 @@ const About = () => {
               height={800}
             />
           </div>
-          <div>
-            <div ref={titleRef}>
-              <p className="text-sm uppercase tracking-widest text-gold font-medium mb-3" style={{ letterSpacing: "0.2em" }}>Our Story</p>
-              <h2 className="section-heading">A Legacy of Exquisite Dining</h2>
-              <div className="gold-divider !mx-0 mt-4 mb-6" />
-            </div>
-            <div ref={textRef} className="space-y-4 text-muted-foreground font-light leading-relaxed">
-              <p>
-                For over a decade, Élégance Catering has been the trusted partner behind the region's most celebrated events. Born from a passion for culinary excellence, we transform every gathering into a sensory masterpiece.
-              </p>
-              <p>
-                Our philosophy is simple: every plate tells a story, every event deserves perfection. From intimate private dinners to grand wedding receptions, our award-winning team combines locally sourced ingredients with world-class technique.
-              </p>
-              <p>
-                We don't just serve food — we curate experiences. Each menu is a collaboration between our chefs and you, ensuring your vision comes to life with flavors that linger long after the last course.
-              </p>
-              <div className="flex gap-12 pt-4">
-                <div>
-                  <span className="text-3xl font-serif font-bold text-gold">500+</span>
-                  <p className="text-sm text-muted-foreground mt-1">Events Catered</p>
-                </div>
-                <div>
-                  <span className="text-3xl font-serif font-bold text-gold">12+</span>
-                  <p className="text-sm text-muted-foreground mt-1">Years of Excellence</p>
-                </div>
-                <div>
-                  <span className="text-3xl font-serif font-bold text-gold">98%</span>
-                  <p className="text-sm text-muted-foreground mt-1">Client Satisfaction</p>
-                </div>
-              </div>
-            </div>
-          </div>
+ <div>
+  <div ref={titleRef}>
+    <p
+      className="text-sm uppercase tracking-widest text-gold font-medium mb-3"
+      style={{ letterSpacing: "0.2em" }}
+    >
+      Our Story
+    </p>
+
+    <h2 className="section-heading">
+      Built for Speed, Designed for Control
+    </h2>
+
+    <div className="gold-divider !mx-0 mt-4 mb-6" />
+  </div>
+
+  <div
+    ref={textRef}
+    className="space-y-4 text-muted-foreground font-light leading-relaxed"
+  >
+    <p>
+      Designed for modern businesses, our system simplifies the way you manage
+      sales, inventory, and daily operations. What started as a solution to
+      streamline complex workflows has evolved into a powerful platform trusted
+      by growing businesses.
+    </p>
+
+    <p>
+      We focus on what matters most — speed, reliability, and ease of use.
+      Whether you're handling high-volume orders or managing multiple outlets,
+      the system keeps everything running smoothly.
+    </p>
+
+    <p>
+      More than just software, it's a tool to help you scale with confidence.
+      From real-time insights to seamless billing, every feature is built to give
+      you complete control over your business.
+    </p>
+
+    <div className="flex gap-12 pt-4">
+      <div>
+        <span className="text-3xl font-serif font-bold text-gold">1000+</span>
+        <p className="text-sm text-muted-foreground mt-1">
+          Businesses Served
+        </p>
+      </div>
+
+      <div>
+        <span className="text-3xl font-serif font-bold text-gold">99.9%</span>
+        <p className="text-sm text-muted-foreground mt-1">
+          System Uptime
+        </p>
+      </div>
+
+      <div>
+        <span className="text-3xl font-serif font-bold text-gold">24/7</span>
+        <p className="text-sm text-muted-foreground mt-1">
+          Support Availability
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </section>

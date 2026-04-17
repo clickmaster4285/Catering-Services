@@ -4,10 +4,11 @@ import caseStudy1 from "@/assets/case-study-1.jpg";
 const caseStudies = [
   {
     img: caseStudy1,
-    title: "The Grand Ballroom Revival",
-    subtitle: "Corporate Gala — 350 Guests",
-    desc: "An empty convention hall transformed into a black-tie gala with five-course dining, live cooking stations, and synchronized service that earned a standing ovation.",
-    stats: ["350 Guests", "5-Course Menu", "4.9★ Rating"],
+    title: "Optimizing High-Volume Business Operations",
+    subtitle: "Growing Brand — Multi-Outlet Setup",
+    desc:
+      "By implementing a unified system across locations, the business gained real-time visibility, faster transactions, and seamless control over daily operations.",
+    stats: ["Multi-Outlet", "Real-Time Insights", "Seamless Operations"],
   },
 ];
 

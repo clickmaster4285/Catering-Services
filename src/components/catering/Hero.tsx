@@ -52,32 +52,44 @@ const Hero = () => {
 
       <div ref={overlayRef} className="absolute inset-0" style={{ background: "linear-gradient(to bottom, hsla(220,20%,10%,0.45), hsla(220,20%,10%,0.65))" }} />
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-        <h1
-          ref={headingRef}
-          className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0"
-          style={{ color: "hsl(40,33%,96%)" }}
-        >
-          Where Culinary Artistry
-          <br />
-          <span className="text-gold italic font-medium">Meets Unforgettable Moments</span>
-        </h1>
-        <p
-          ref={subRef}
-          className="mt-6 text-base md:text-lg max-w-xl font-light opacity-0"
-          style={{ color: "hsl(40,33%,96%,0.85)" }}
-        >
-          Bespoke catering for weddings, galas, and private occasions — crafted with passion, served with grace.
-        </p>
-        <div ref={ctaRef} className="mt-10 flex gap-4 opacity-0">
-          <a href="#contact" className="btn-primary">
-            Book Your Event
-          </a>
-          <a href="#services" className="btn-outline" style={{ borderColor: "hsl(40,33%,96%,0.5)", color: "hsl(40,33%,96%)" }}>
-            Our Services
-          </a>
-        </div>
-      </div>
+     <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+  <h1
+    ref={headingRef}
+    className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0"
+    style={{ color: "hsl(40,33%,96%)" }}
+  >
+    Smart Billing
+    <br />
+    <span className="text-gold italic font-medium">
+      Built for Modern Businesses
+    </span>
+  </h1>
+
+  <p
+    ref={subRef}
+    className="mt-6 text-base md:text-lg max-w-xl font-light opacity-0"
+    style={{ color: "hsl(40,33%,96%,0.85)" }}
+  >
+    Manage sales, inventory, and operations with speed and precision — designed
+    for restaurants, retail, and growing businesses.
+  </p>
+
+  <div ref={ctaRef} className="mt-10 flex gap-4 opacity-0">
+    <a href="#contact" className="btn-primary">
+      Get Started
+    </a>
+    <a
+      href="#features"
+      className="btn-outline"
+      style={{
+        borderColor: "hsl(40,33%,96%,0.5)",
+        color: "hsl(40,33%,96%)",
+      }}
+    >
+      Explore Features
+    </a>
+  </div>
+</div>
 
       {/* Slide indicators */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex gap-3">

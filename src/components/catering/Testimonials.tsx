@@ -4,24 +4,28 @@ import { useGsapFadeUp } from "@/hooks/useGsap";
 
 const testimonials = [
   {
-    quote: "Élégance Catering made our wedding day absolutely magical. Every guest raved about the food and service for weeks afterward.",
-    name: "Sarah & James Wellington",
-    event: "Wedding Reception, 200 Guests",
+    quote:
+      "This POS completely changed how we run our restaurant. Billing is faster, and order mistakes are almost zero now.",
+    name: "Ali Raza",
+    event: "Restaurant Owner",
   },
   {
-    quote: "The attention to detail was extraordinary. Our corporate gala felt like a Michelin-star experience from start to finish.",
-    name: "David Chen",
-    event: "Annual Corporate Gala",
+    quote:
+      "We finally have real-time control over inventory and sales across all branches. It’s made management so much easier.",
+    name: "Sarah Khan",
+    event: "Multi-Branch Retail Business",
   },
   {
-    quote: "From menu planning to the last plate, they handled everything with grace and professionalism. Truly stress-free.",
-    name: "Maria Gonzalez",
-    event: "Private Birthday Celebration",
+    quote:
+      "The system is fast, simple, and reliable. Even during peak hours, everything runs smoothly without delays.",
+    name: "Usman Tariq",
+    event: "Café Manager",
   },
   {
-    quote: "We've used many caterers over the years, but Élégance is in a class of its own. Our clients are always impressed.",
-    name: "Robert Anderson",
-    event: "Quarterly Executive Dinners",
+    quote:
+      "Reports and insights helped us understand our business better and increase monthly revenue significantly.",
+    name: "Hassan Mehmood",
+    event: "Store Owner",
   },
 ];
 

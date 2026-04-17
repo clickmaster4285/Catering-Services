@@ -50,7 +50,7 @@ const Navbar = () => {
             </a>
           ))}
           <a href="#contact" className="btn-primary text-xs">
-            Book Your Event
+            Book Free Demo
           </a>
         </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
             </a>
           ))}
           <a href="#contact" className="btn-primary text-xs block text-center" onClick={() => setMobileOpen(false)}>
-            Book Your Event
+            Book Free Demo
           </a>
         </div>
       )}

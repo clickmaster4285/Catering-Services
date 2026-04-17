@@ -2,24 +2,24 @@ import { useGsapFadeUp, useGsapStagger } from "@/hooks/useGsap";
 
 const painPoints = [
   {
-    icon: "😰",
-    title: "Event Planning Stress",
-    desc: "Coordinating food, timing, and quality across vendors leaves you overwhelmed and anxious.",
+    icon: "🐢",
+    title: "Slow Billing",
+    desc: "Long checkout times create queues, frustrate customers, and hurt your daily sales.",
   },
   {
-    icon: "😞",
-    title: "Inconsistent Quality",
-    desc: "You've experienced disappointing food that didn't match promises — leaving guests underwhelmed.",
+    icon: "❌",
+    title: "Order Mistakes",
+    desc: "Manual entries and miscommunication lead to wrong orders and unhappy customers.",
   },
   {
-    icon: "⏰",
-    title: "Late Deliveries",
-    desc: "Delayed service disrupts your schedule and creates awkward gaps during your most important moments.",
+    icon: "📉",
+    title: "No Business Insights",
+    desc: "Without real-time data, it's hard to track performance or make informed decisions.",
   },
   {
-    icon: "🍽️",
-    title: "Poor Presentation",
-    desc: "Food that tastes fine but looks uninspired fails to create the visual impact your event deserves.",
+    icon: "📦",
+    title: "Inventory Chaos",
+    desc: "Stock mismatches and lack of tracking result in losses and operational headaches.",
   },
 ];
 

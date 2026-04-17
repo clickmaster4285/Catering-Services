@@ -7,20 +7,23 @@ const posts = [
   {
     img: blog1,
     date: "March 15, 2026",
-    title: "5 Menu Trends Redefining Luxury Events in 2026",
-    excerpt: "From hyper-local sourcing to interactive food stations, discover what's shaping the future of event dining.",
+    title: "The Future of Business Operations Starts Here",
+    excerpt:
+      "Explore how next-generation systems are redefining speed, accuracy, and control for modern businesses.",
   },
   {
     img: blog2,
     date: "February 28, 2026",
-    title: "The Complete Guide to Stress-Free Event Planning",
-    excerpt: "Expert tips from our event coordinators on creating flawless timelines and vendor coordination.",
+    title: "Operational Excellence: A Guide for Growing Businesses",
+    excerpt:
+      "Build smoother workflows, reduce friction, and scale confidently with the right operational foundation.",
   },
   {
     img: blog3,
     date: "February 10, 2026",
-    title: "The Art of Plating: How Presentation Elevates Taste",
-    excerpt: "Our head chef reveals the psychology behind beautiful food presentation and its impact on dining experiences.",
+    title: "Turning Data into Decisions",
+    excerpt:
+      "Leverage real-time insights to unlock smarter strategies and drive long-term growth.",
   },
 ];
 

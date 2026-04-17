@@ -2,24 +2,24 @@ import { useGsapFadeUp, useGsapStagger } from "@/hooks/useGsap";
 
 const features = [
   {
-    icon: "📋",
-    title: "Custom Menus",
-    desc: "Tailored menus designed around your theme, dietary needs, and culinary dreams — never a one-size-fits-all approach.",
+    icon: "⚡",
+    title: "Fast Billing",
+    desc: "Process orders in seconds with a smooth, responsive interface built for high-speed environments.",
   },
   {
-    icon: "⏱️",
-    title: "Punctual Service",
-    desc: "Military precision meets hospitality warmth. Every course served at the perfect moment, every time.",
+    icon: "📦",
+    title: "Inventory Control",
+    desc: "Track stock in real time, reduce wastage, and stay updated with automatic inventory management.",
   },
   {
-    icon: "🎨",
-    title: "Artful Presentation",
-    desc: "Each dish is a visual masterpiece — plated with the same care an artist brings to canvas.",
+    icon: "📊",
+    title: "Real-Time Insights",
+    desc: "Access sales reports, performance metrics, and business data instantly to make smarter decisions.",
   },
   {
-    icon: "👔",
-    title: "Professional Staff",
-    desc: "Impeccably trained service staff who anticipate needs and elevate the guest experience with discreet excellence.",
+    icon: "🔗",
+    title: "Seamless Operations",
+    desc: "Connect billing, kitchen, and management into one unified workflow for complete control.",
   },
 ];
 

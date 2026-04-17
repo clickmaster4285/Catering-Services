@@ -7,9 +7,9 @@ const Footer = () => {
             <h3 className="font-serif text-2xl font-bold text-gold mb-4">
               Élégance<span className="text-ivory font-light"> Catering</span>
             </h3>
-            <p className="text-ivory/60 font-light text-sm leading-relaxed max-w-sm">
-              Crafting unforgettable culinary experiences for life's most important moments. From intimate dinners to grand celebrations.
-            </p>
+           <p className="text-ivory/60 font-light text-sm leading-relaxed max-w-sm">
+  A fast, reliable POS system built to simplify billing, streamline operations, and give you full control over your business in real time.
+</p>
             <div className="flex gap-4 mt-6">
               {["Instagram", "Facebook", "Pinterest"].map((s) => (
                 <a

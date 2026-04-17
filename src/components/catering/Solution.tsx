@@ -13,10 +13,10 @@ const Solution = () => {
         </h2>
         <div className="gold-divider mt-6 mb-8" />
         <p className="text-ivory/75 text-lg font-light leading-relaxed">
-          Imagine an event where every detail is handled — from the first appetizer to the final dessert. No stress, no surprises, just seamless elegance. We become your invisible partner, transforming your vision into a stress-free, premium experience that your guests will talk about for years.
-        </p>
+  Imagine running your business with complete control — faster billing, accurate orders, and real-time insights at your fingertips. No confusion, no delays, just smooth operations that keep your customers happy and your business growing.
+</p>
         <a href="#contact" className="btn-primary mt-10 inline-block">
-          Start Planning Today
+            Get Started
         </a>
       </div>
     </section>
